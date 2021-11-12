@@ -36,6 +36,6 @@ export class AppComponent implements OnInit {
     //=========================
 
     // Resize to 250 x 250 pixels using the 'fill' crop mode.
-    this.img.resize(fill().width(250).height(260));
+    this.img.resize(fill().width(250).height(250));
   }
 }
