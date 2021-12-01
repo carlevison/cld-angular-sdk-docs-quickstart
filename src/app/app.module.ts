@@ -4,7 +4,7 @@ import { NgModule } from "@angular/core";
 //===================
 
 // Import the CloudinaryModule.
-import { CloudinaryModule } from "@cloudinary/angular";
+import { CloudinaryModule } from "@cloudinary/ng";
 import { AppComponent } from "./app.component";
 
 @NgModule({
