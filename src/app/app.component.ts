@@ -13,7 +13,7 @@ import { fill } from "@cloudinary/url-gen/actions/resize";
 export class AppComponent implements OnInit {
   img: CloudinaryImage;
 
-  title = "Angular Quickstart";
+  title = "Angular Quick Start";
 
   ngOnInit() {
     // 2. Set your cloud name
