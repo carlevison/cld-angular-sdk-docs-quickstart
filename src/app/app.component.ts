@@ -11,7 +11,7 @@ import { fill } from "@cloudinary/url-gen/actions/resize";
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent implements OnInit {
-  img: CloudinaryImage;
+  img!: CloudinaryImage;
 
   title = "Angular Quick Start";
 
